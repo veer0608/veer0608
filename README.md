@@ -1,0 +1,20 @@
+## Veer Arora
+
+Backend and data engineer, Bengaluru. I build systems that can tell you when
+they are wrong — evaluation harnesses, reconciliation gates, measured baselines
+rather than plausible-looking output.
+
+Portfolio: **[veer0608.github.io](https://veer0608.github.io)**
+
+### Selected work
+
+| | |
+|---|---|
+| **[citerag](https://github.com/veer0608/citerag)** | Cite-everything RAG over messy 10-K PDFs with a golden-set eval harness. recall@5 0.37 → 0.77 against a measured 0.85 ceiling. The wins came from fixing PDF text extraction, not from clever retrieval. |
+| **[moneytrail](https://github.com/veer0608/moneytrail)** | Local-first bank-statement ledger that provably balances. Reconciliation is the first component, not categorisation — if the parse dropped a row, every insight built on it is quietly wrong. |
+| **[agencydesk](https://github.com/veer0608/agencydesk)** | Multi-tenant project management where tenant isolation is enforced by PostgreSQL row-level security, not application code. React + FastAPI + Postgres 16. |
+| **[agentops](https://github.com/veer0608/agentops)** | Support agent that takes gated actions behind a policy/escalation gate, with a provider-agnostic LLM seam and a built-in eval harness for tool selection, grounding, cost and latency. |
+
+### Working with
+
+Python · FastAPI · PostgreSQL · pandas · LangGraph · TypeScript · React
