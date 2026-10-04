@@ -17,7 +17,8 @@ Open to backend, data, and AI-engineering roles. Bengaluru or relocating.
 | **[vidsmith](https://github.com/veer0608/vidsmith)** | Turns a script into a narrated, captioned video. Uses edge-tts word-boundary timing for exact captions instead of running Whisper after the fact. Deployed and running at vidsmith.duckdns.org. |
 | **[moneytrail](https://github.com/veer0608/moneytrail)** | Local-first bank-statement ledger that provably balances. Reconciliation is the first component, not categorisation. If the parse dropped a row, every insight built on it is quietly wrong. |
 | **[reruns](https://github.com/veer0608/reruns)** | Benchmark for multi-turn support agents, scored on pass^k rather than a single pass or fail. 110 tests. The first measurement run was thrown out on purpose for being unreliable; daily runs since. |
-| **[schemablind](https://github.com/veer0608/schemablind)** | A SQL agent given no schema: four verbs, a database it has never seen, a question. Scored on BIRD execution accuracy, the agent's rows against the reference query's, no judge model. Harness proven (oracle 100%, mute 0%), full model run pending. |
+| **[schemablind](https://github.com/veer0608/schemablind)** | A SQL agent given no schema: four verbs, a database it has never seen, a question. Scored on BIRD execution accuracy, the agent's rows against the reference query's, no judge model. Harness proven (oracle 100%, mute 0%). Dev half measured at 64.7% on 266 questions; not a held-out score. |
+| **[bhavcopy-pipeline](https://github.com/veer0608/bhavcopy-pipeline)** | Daily NSE and BSE end-of-day price pipeline with no LLM in it: Python ingestion, DuckDB, dbt models and tests, GitHub Actions, and a static dashboard live on [GitHub Pages](https://veer0608.github.io/bhavcopy-pipeline/). |
 
 Previously: tested **Nostradamus** at L&T Finance, an MLOps platform running eight
 models across EWS, Banking, Self-Cure and Collections. Pipeline validation, SQL
